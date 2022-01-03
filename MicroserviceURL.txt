@@ -1,0 +1,4 @@
+http://localhost:8000/currency-exchange/getExchange/from/USD/to/INR
+http://localhost:8001/currency-exchange/getExchange/from/USD/to/INR
+http://localhost:8100/currency-conversion/getConversion/from/USD/to/INR/6
+http://localhost:8761/
