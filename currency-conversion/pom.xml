@@ -81,7 +81,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 						<image>
-							<name>smkarthik/msnew/ms-${project.artifactId}:${project.version}</name>
+							<name>smkarthik/ms-${project.artifactId}:${project.version}</name>
 						</image>
 						<pullPolicy>IF_NOT_PRESENT</pullPolicy>
 					</configuration>
