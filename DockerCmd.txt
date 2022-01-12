@@ -1,0 +1,27 @@
+docker --version
+docker run -p 5001:5000 -d imagelocation:tagversion (-p port -d detach mode like backround)
+docker logs -f dockerID
+docker container ls -a
+docker images
+docker pull mysql
+docker tag path:release path:latest
+docker search mysql
+docker image history dockerID
+docker image inspect dockerID
+docker image remove dockerID
+
+docker container run -p 5000:5000 -d path:tag
+docker container pause dockerID (pause application)
+docker container unpause dockerID
+docker container inspect dockerID
+docker container prune (remove all stopped containers)
+docker container logs -f dockerID
+docker container stop dockerID (gracetime to be taken for shutdown)
+docker container kill dockerID (immediate kill)
+docker container run -p 5000:5000 -d --restart=always path:tag
+
+docker top dockerID
+docker events (open in new tab)
+docker stats
+docker system df
+docker run -p 5001:5000 -m 512m --cpu-quota 50000 -d path:tag
