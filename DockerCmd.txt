@@ -37,3 +37,6 @@ docker push smkarthik/ms-naming-server
 
 docker tag smkarthik/ms-api-gateway:0.0.1-SNAPSHOT smkarthik/ms-api-gateway
 docker push smkarthik/ms-api-gateway
+
+docker tag smkarthik/ms-hello-world-api:0.0.1-SNAPSHOT smkarthik/ms-hello-world-api
+docker push smkarthik/ms-hello-world-api
