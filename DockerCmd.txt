@@ -40,3 +40,6 @@ docker push smkarthik/ms-api-gateway
 
 docker tag smkarthik/ms-hello-world-api:0.0.1-SNAPSHOT smkarthik/ms-hello-world-api
 docker push smkarthik/ms-hello-world-api
+
+docker tag smkarthik/hello-world-api:0.0.1-SNAPSHOT smkarthik/hello-world-api
+docker push smkarthik/hello-world-api
