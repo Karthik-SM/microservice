@@ -26,6 +26,8 @@ docker stats
 docker system df
 docker run -p 5001:5000 -m 512m --cpu-quota 50000 -d path:tag
 
+docker run --env MYSQL_ROOT_PASSWORD=root --env MYSQL_DATABASE=currencydb --env MYSQL_USER=exchangeuser --env MYSQL_PASSWORD=exchangepwd --publish 3306:3306 --detach mysql:8
+
 docker tag smkarthik/ms-currency-exchange:0.0.1-SNAPSHOT smkarthik/ms-currency-exchange
 docker push smkarthik/ms-currency-exchange
 
@@ -43,3 +45,5 @@ docker push smkarthik/ms-hello-world-api
 
 docker tag smkarthik/hello-world-api:0.0.1-SNAPSHOT smkarthik/hello-world-api
 docker push smkarthik/hello-world-api
+
+\connect exchangeuser@localhost:3306
