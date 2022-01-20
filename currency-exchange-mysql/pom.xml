@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example.microservice</groupId>
 	<artifactId>currency-exchange-mysql</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>currency-exchange-mysql</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>

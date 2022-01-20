@@ -8,10 +8,11 @@ import com.example.microservice.currencyconversion.dto.CurrencyConversionBean;
 
 
 //@FeignClient(name="currency-exchange",url="http://localhost:8000")
-@FeignClient(name="currency-exchange")
+//@FeignClient(name="currency-exchange")
+@FeignClient(name="currency-exchange-mysql")
 public interface CurrencyExchnageProxy {
 
-	@GetMapping("/currency-exchange/getExchange/from/{from}/to/{to}")
+	@GetMapping("/currency-exchange-mysql/getExchange/from/{from}/to/{to}")
 	public CurrencyConversionBean getExchange(@PathVariable String from,@PathVariable String to);
 	
 }
